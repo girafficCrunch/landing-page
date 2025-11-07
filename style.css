@@ -218,3 +218,12 @@ p.reference {
 .action button {
     border-width: 3px;
 }
+
+/* =====================
+       FOOTER SECTION
+   ===================== */
+.footer {
+    font-size: 18px;
+    color: var(--background-color);
+    padding: 30px;
+}
