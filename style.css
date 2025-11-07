@@ -8,6 +8,7 @@
   --accent1: rgb(215, 73, 58);
   --accent2: rgb(241, 168, 47);
   --background-color: rgb(255, 242, 222);
+  --background-color2: rgb(255, 249, 234);
 }
 
 /* Usage example:
@@ -67,6 +68,10 @@ body {
     background-color: var(--color3);
 }
 
+.section.action {
+    /* background-color: var(--background-color2); */
+}
+
 /* =====================
        HEADER SECTION
    ===================== */
@@ -116,13 +121,13 @@ body {
     padding: 0;
 }
 
-.hero button {
+button {
     color: var(--background-color);
-    padding: 4px 20px;
+    padding: 8px 30px;
     background-color: var(--color2);
     border-color: var(--background-color);
     border-radius: 8px;
-    border-width: 1px;
+    border-width: 0px;
     font-size: 18px;
 }
 
@@ -165,7 +170,7 @@ body {
 }
 
 /* =====================
-        INFO SECTION
+       QUOTE SECTION
    ===================== */
 .quote .row {
     width: 800px;
@@ -175,6 +180,7 @@ body {
 .quote p {
     margin: 0;
 }
+
 p.quote {
     font-size: 36px;
     font-weight: 300;
@@ -185,4 +191,30 @@ p.reference {
     font-size: 24px;
     font-weight: 700;
     text-align: end;
+}
+
+/* =====================
+       ACTION SECTION
+   ===================== */
+.action .row {
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color2);
+    color: var(--background-color);
+    border-radius: 12px;
+    margin: 100px;
+}
+
+.action h6 {
+    font-size: 24px;
+}
+
+.action p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.action button {
+    border-width: 3px;
 }
