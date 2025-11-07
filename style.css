@@ -34,7 +34,7 @@ body {
     display: flex;
     gap: 16px;
     /* border: dashed lightblue; */
-    width: 900px;
+    width: 1000px;
 }
 
 .column {
@@ -133,3 +133,30 @@ body {
     border-radius: 12px;
 }
 
+/* =====================
+        INFO SECTION
+   ===================== */
+.info h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 60px;
+}
+
+   .info .row {
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.info .row div p {
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info img {
+    height: 180px;
+    border-radius: 12px;
+    border: solid 4px rgb(75, 136, 160);
+}
