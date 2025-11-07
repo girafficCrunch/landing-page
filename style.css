@@ -79,7 +79,7 @@ body {
     justify-content: space-between;
     color: var(--background-color);
     align-content: center;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .logo {
@@ -102,7 +102,7 @@ body {
         HERO SECTION
    ===================== */
 .section.hero {
-    padding: 60px
+    padding: 80px
 }
 
 .hero .column {
