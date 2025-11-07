@@ -63,6 +63,9 @@ body {
     background-color: var(--color1);
 }
 
+.section.quote {
+    background-color: var(--color3);
+}
 
 /* =====================
        HEADER SECTION
@@ -159,4 +162,27 @@ body {
     height: 180px;
     border-radius: 12px;
     border: solid 4px rgb(75, 136, 160);
+}
+
+/* =====================
+        INFO SECTION
+   ===================== */
+.quote .row {
+    width: 800px;
+    margin: 80px;
+}
+
+.quote p {
+    margin: 0;
+}
+p.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+p.reference {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
 }
