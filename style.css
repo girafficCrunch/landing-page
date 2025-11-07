@@ -5,24 +5,37 @@ body {
     font: Roboto;
     align-items: stretch;
     margin: 0;
+    min-width: 800px;
 }
 
-.body {
-    flex: 0 1 800px;
-}
-
-.section.hero {
-    background-color: rgb(16, 35, 56);
+.section {
     display: flex;
     justify-content: center;
 }
 
-.header {
+.section.hero {
+    background-color: rgb(16, 35, 56);
+}
+
+.body {
+    flex: 0 1 800px;
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding: 8px 20px;
-    border-bottom: solid;
+    margin: 0 20px;
+}
+
+.body.hero {
+    justify-content: space-between;
+    max-height: 300px;
+    overflow: none;
+    margin: 80px 20px;
+    gap: 20px;
+}
+
+.header {
+    gap: 24px;
+    padding: 12px 0 0;
+    /* border-bottom: solid; */
 }
 
 .logo {
@@ -30,6 +43,7 @@ body {
     margin-right: auto;
     padding: 4px;
     border-radius: 8px;
+    font-size: 24px;
     font-weight: 900;
     font-style: italic;
 }
@@ -37,4 +51,45 @@ body {
 a {
     text-decoration: none;
     color: rgb(253, 249, 234);
+    font-size: 18px;
+}
+
+.hero p {
+    color: rgb(253, 249, 234);
+    font-size: 18px;
+}
+
+.hero.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 240px;
+    max-height: 240px;
+    flex: 1;
+    /* border: dashed grey; */
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-weight: 600;
+    /* background-color: rgb(121, 180, 184); */
+    background-color: rgb(75, 136, 159);
+    color: white;
+    border-width: 1px;
+    font-size: 18px;
 }
