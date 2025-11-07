@@ -6,24 +6,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Awesome Landing Page</title>
 </head>
+
 <body>
-    <div class="section hero">
-        <div class="body header">
+    <div class="section header">
+        <div class="row">
             <div class="logo">Header Logo</div>
-            <a href="#">link uno</a>
-            <a href="#">link dos</a>
-            <a href="#">link tres</a>
+            <div class="container">
+                <a href="#">link uno</a>
+                <a href="#">link dos</a>
+                <a href="#">link tres</a>
+            </div>
         </div>
     </div>
 
     <div class="section hero">
-        <div class="body hero">
-            <div class="text hero">
+        <div class="row">
+            <div class="column">
                 <h1> This website is awesome</h1>
                 <p>Tempor exercitation aliquip elit et aute proident ullamco commodo dolore. Esse ad ullamco voluptate culpa qui consectetur ea dolore.</p>
                 <button>Sign up</button>
             </div>
-            <img src="./img/awesome-photo.jpg" alt="A monkey saying wow this website is awesome!" height="240">
+            <div class="column" id="hero-column-img"><img src="./img/awesome-photo.jpg" alt="A monkey saying wow this website is awesome!" height="240"></div>
         </div>
     </div>
 
